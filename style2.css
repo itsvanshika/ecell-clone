@@ -1,0 +1,47 @@
+.header{
+    background-color: white;
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content:space-between;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content p {
+    width:200%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content h1{
+    width: 500%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-content p ul {
+    width:200%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn btn-primary{
+    color:white
+}
+@media only screen and (max-width:850px){
+    .header{
+        flex-direction:column;
+    }
+    .header-content{
+        margin:20px auto;
+    }
+    .header-image{
+        max-width:90%;
+    }
+}
